@@ -1,0 +1,128 @@
+ /* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #FF42A5;
+    --color-secondary: #4EC5F7;
+}
+html,
+body{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+img,svg{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+/* .hide{
+    display: none;
+} */
+.container{
+    width: 1140px;
+    max-width: 100%;
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+.pt{
+    padding-block-start: 90px;
+}
+.btn{
+    background-color: white;
+    color: var(--color-primary);
+    padding-block: 14px;
+    padding-inline: 40px;
+    border-radius: 50px;
+
+}
+/* Header Section */
+.header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navigation,
+.nav-bar,
+.media,
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-item{
+    margin-inline-end: 32px; 
+}
+.media{
+    background:rgba(11, 2, 35, 0.1);
+    padding-inline: 24px;
+    border-radius: 8px;
+}
+.media span i{
+    padding-inline: 8px;
+    padding-block: 18px;
+    margin-inline: 6px;
+}
+.media span:last-child{
+    margin-inline-end: 6px;
+}
+/* Baner area */
+.baner-content-area{
+    display: flex;
+    background: url('../images/Group14.png') no-repeat center;
+    width: 50%;
+    justify-content: center;
+    padding-block: 155px;
+}
+.baner-content-area .title{
+    font-size: 45px;
+}
+.baner-content-area .heading{
+    font-size: 96px;
+    background: linear-gradient(#FF42A5,#333);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn.btn-primary{
+    background: var(--color-primary);
+    color: #fff;
+}
+.btn.btn-secondary{
+    background: var(--color-secondary);
+    color: #fff;
+}
+.baner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.baner-img img{
+    width: 90%;
+}
+p.text{
+    margin-block-end: 10px;
+}
+.button-group{
+    margin-block-start: 40px;
+    display: flex;
+}
+.button-group :first-child{
+    margin-inline-end: 30px;
+}
+
+/* Online Gaming */
+.text-center{
+    text-align: center;
+}
+.text-center .title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-center .title span{
+    color: purple
+}
