@@ -66,7 +66,8 @@ a{
 .media,
 .banner-container,
 .card-container,
-.participent-content{
+.participent-content,
+.footer-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,8 +146,8 @@ p.text{
     font-size: 48px;
     font-weight: 700;
 }
-.text-center .title span{
-    color: purple
+.text-center .title span,span{
+    color: var(--color-primary)
 }
 .card-container{
     margin-block-start: 45px;
@@ -222,9 +223,10 @@ section.career{
 .career-list,.career-des{
     margin-block-start: 20px;
 }
+
 .career-list li{
-    list-style: none;
     margin-block-end: 5px;
+    list-style: none;
 }
 .career-img{
     margin-inline: auto;
@@ -249,4 +251,38 @@ section.career{
     border: 2px solid #FF42A5;
     padding: 3px 12px;
     color: #FF42A5
+}
+/* Footer area */
+.footer{
+    background-color: #0B0223;
+}
+.footer-logo img{
+    margin-inline: auto;
+}
+.footer-top ,.footer-social-media,.footer-privacy,.footer-bottom{
+    display: inline-flex;
+    margin-inline: auto;
+}
+.footer-top,.footer-privacy{
+    margin-block: 20px;
+}
+.footer-top a,
+.footer-privacy a{
+    color: #fff;
+    padding-block: 5px;
+    padding-inline: 8px;
+}
+.footer-top :not(:last-child),
+.footer-privacy :not(:last-child){
+    margin-inline: 15px;
+}
+.footer-privacy a,.footer-bottom{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-social-media a{
+    color: #fff;
+    margin-inline: 10px;
+    padding-block: 3px;
+    padding-inline:5px;
 }
