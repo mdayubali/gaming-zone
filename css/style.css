@@ -19,9 +19,9 @@ img,svg{
 a{
     text-decoration: none;
 }
-/* .hide{
+.hide{
     display: none;
-} */
+}
 .container{
     width: 1140px;
     max-width: 100%;
@@ -160,6 +160,7 @@ p.text{
 .card img{
     max-width: 100%;
 }
+
 .card-overlay{
     display: grid;
     align-content: center;
@@ -196,14 +197,11 @@ p.text{
 .career-img img
 {
     width: 100%;
-
 }
 .w-25{
     width: 50%;
     margin-inline-end: 20%;
-    
 }
-
 .gaming-img-overlay{
     position: absolute;
     translate: -50% -80%;
