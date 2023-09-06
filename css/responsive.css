@@ -1,0 +1,64 @@
+@media screen and (max-width: 425px){
+    .container{
+        width: 95%;
+    }
+    .header{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .navigation,.nav-bar,
+    .header,.card-container,.row,
+    .footer-top, .footer-privacy, .footer-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-top, .footer-privacy, .footer-bottom{
+        /* width: 100%; */
+        /* justify-content: center; */
+        display: flex;
+        text-align: center;
+    }
+    .footer-social-media{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-container,.row.career-row{
+        flex-direction: column-reverse;
+    }
+    .nav-bar-item{
+        margin-bottom: 20px;
+    }
+    .baner-content-area{
+        padding-block: 15px;
+    }
+    .baner-img{
+        display: inline-block;
+        width: 95%;
+        margin-inline: auto;
+    }
+    .baner-img img{
+        width: 100%;
+        margin-inline: auto;
+    }
+    .col-3,.col-6,.col-4,.w-25,.w-80{
+        width: 100%;
+    }
+    .career-title,.card p.text{
+        text-align: center;
+    }
+    .card img {
+        max-width: 100%;
+        margin-inline: auto;
+    }
+    .card-overlay{
+        width: 91%;
+        height: 88%;
+    }
+    p.text{
+        margin-top: 5px;
+    }
+    .text-left,.text-right,p.text{
+        text-align: left;
+    }
+    a.btn.uppercase {display: block;text-align: center;width: 70%;margin: 0 auto;}
+}
